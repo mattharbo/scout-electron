@@ -19,7 +19,7 @@ app.on('ready', function(){
 	mainWindow.setIgnoreMouseEvents(false)
 	//Load html into window
 	mainWindow.loadURL(url.format({
-		pathname: 'http://localhost:8888/scout/game.php'
+		pathname: 'https://scout-sports.herokuapp.com'
 		//pathname: path.join(__dirname,'main.html'),
 		//protocol:'file',
 		//slashes:true
